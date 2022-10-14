@@ -19,24 +19,24 @@ const Header = () => {
   return (
     <>
       <section className="header ">
-        <Link to="home" className="">
+        <Link to="" className="">
           <img src={logo} alt="error" className="logo" />
         </Link>
 
         <nav className={showMediaIcons ? "navbar active" : "navbar"}>
-          <Link to="home" className="link">
+          <Link to="home" className=" hover-underline-animation link">
             home
           </Link>
-          <Link to="about" className="link">
+          <Link to="about" className=" hover-underline-animation link">
             About
           </Link>
-          <Link to="package" className="link">
+          <Link to="project" className=" hover-underline-animation link">
             Projects
           </Link>
-          <Link to="book" className="link">
-            Book
+          <Link to="review" className=" hover-underline-animation link">
+            Review
           </Link>
-          <Link to="book" className="link">
+          <Link to="contact" className=" hover-underline-animation link">
             Contact
           </Link>
 

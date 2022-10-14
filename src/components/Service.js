@@ -37,7 +37,11 @@ const Offering = () => {
                   reality.
                 </p>
                 <br></br>
-                <a href="/" className="button2">
+                <a
+                  href="https://www.instagram.com/mern_web_developer/"
+                  target="_blank"
+                  className="button2"
+                >
                   BEST DEAL FOR OUR CUSTOMERS
                 </a>
               </div>

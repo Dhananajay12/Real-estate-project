@@ -4,7 +4,7 @@
 
 * {
   /* cursor: none !important; */
-  /* overflow-y: hidden; */
+
 
 }
 
@@ -50,7 +50,7 @@ body {
 }
 
 .cursor {
-  background-color: #111;
+  background-color: rgb(104, 95, 15);
   height: 32px;
   width: 32px;
   border-radius: 50%;
@@ -96,7 +96,46 @@ body {
 
 /* Navbar CSS start here */
 
+/*--  hover-underline-animation Start --- */
 
+.hover-underline-animation {
+  display: inline-block;
+  position: relative;
+  color: #121212;
+}
+
+.hover-underline-animation:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: rgb(104, 95, 15);
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.hover-underline-animation:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+
+.zoom {
+
+  transition: transform .2s;
+  /* Animation */
+  margin: 0 auto;
+}
+
+.zoom:hover {
+  transform: scale(1.2);
+}
+
+
+/*--  hover-underline-animation end --- */
 
 .header {
   position: sticky;
@@ -152,7 +191,7 @@ body {
 
 
 .link:hover {
-  color: rgb(231, 154, 53) !important;
+  /* color: rgb(231, 154, 53) !important; */
 }
 
 .navbar {
@@ -194,10 +233,11 @@ body {
   .navbar.active {
     margin-top: 1rem;
     left: 0;
-    opacity: 0.8;
+
+
     transition: all 0.5s ease;
     z-index: 1;
-    background-color: #2b4497;
+    background-color: rgb(68, 62, 6);
 
   }
 
@@ -245,7 +285,7 @@ body {
   font-size: 40px !important;
   color: wheat;
   border-radius: 20px;
-  padding: 2%;
+  padding: 1%;
 
   background-color: #918813;
 
@@ -581,7 +621,7 @@ div.slide-right p {
 }
 
 .background1 {
-  background-image: url('./image/b3.jpg');
+  background-image: url('./image/b6.jpg');
   opacity: 1;
   background-repeat: no-repeat;
   background-size: cover;
@@ -671,7 +711,7 @@ div.slide-right p {
 
 .button {
   text-decoration: none;
-  background: rgb(95, 94, 94);
+  background: rgb(68, 62, 6);
   padding: 10px;
   border-radius: 10px;
   color: white;
@@ -729,8 +769,23 @@ div.slide-right p {
 
 }
 
+.background-projects {
+  background-image: url('./image/b7.jpg');
+  opacity: 1;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+
+  text-align: center;
+  justify-content: center;
+
+
+
+}
+
 .background4 {
-  background-image: url('./image/b4.jpg');
+  background-image: url('./image/b8.jpg');
   opacity: 1;
   background-repeat: no-repeat;
   background-size: cover;
@@ -861,12 +916,25 @@ div.slide-right p {
   padding-top: 2rem;
   padding-bottom: 2rem;
   justify-content: space-between;
-  background-color: rgb(121, 120, 120);
+  background-color: rgb(68, 62, 6);
   color: white;
   padding-left: 15%;
   padding-right: 15%;
 }
 
+.input-flied {
+  padding: 4%;
+  border-radius: 10px;
+  border: 1px solid rgb(146, 144, 14);
+  width: 100%;
+}
+
+.textarea {
+  width: 100%;
+  padding: 4%;
+  border-radius: 10px;
+  border: 1px solid rgb(146, 144, 14);
+}
 
 footer {
   display: grid;

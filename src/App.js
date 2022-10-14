@@ -51,11 +51,11 @@ function App() {
   const textLeave = () => setCursorVariant("default");
   return (
     <div className="App">
-      {/* <motion.div
+      <motion.div
         className="cursor"
         variants={variants}
         animate={cursorVariant}
-      /> */}
+      />
       <Header />
       <Home />
       <br></br>

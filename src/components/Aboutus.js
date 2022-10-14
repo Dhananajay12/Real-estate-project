@@ -14,7 +14,7 @@ import { Autoplay } from "swiper";
 
 const Service = () => {
   return (
-    <div id="service">
+    <div id="about">
       <div className="container-fluid width-80 ">
         <div className="center">
           <div>
@@ -60,7 +60,11 @@ const Service = () => {
                   essentially unchanged. It was popularised in the 1960s with
                 </p>
                 <br></br>
-                <a href="/" className="button ">
+                <a
+                  href="https://www.instagram.com/mern_web_developer/"
+                  className="button "
+                  target="_blank"
+                >
                   Work with us
                 </a>
               </div>
