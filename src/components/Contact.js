@@ -103,7 +103,7 @@ const Contact = () => {
             <div className="col-md-6">
               <br></br>
               <p
-                classname="maps mt-2"
+                className="maps mt-2"
                 style={{
                   width: "102.6%",
                   height: "20rem",

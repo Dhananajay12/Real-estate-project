@@ -19,7 +19,7 @@ const Header = () => {
   return (
     <>
       <section className="header ">
-        <Link to="" className="">
+        <Link to="/" className="">
           <img src={logo} alt="error" className="logo" />
         </Link>
 
@@ -46,7 +46,7 @@ const Header = () => {
           />
         </nav>
         <div className="hamburger-menu mt-1">
-          <Link onClick={() => setShowMediaIcons(!showMediaIcons)}>
+          <Link to="" onClick={() => setShowMediaIcons(!showMediaIcons)}>
             <GiHamburgerMenu className="icons" />
           </Link>
         </div>

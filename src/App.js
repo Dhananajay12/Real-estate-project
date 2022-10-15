@@ -9,7 +9,7 @@ import Service from "./components/Service";
 import Review from "./components/Review";
 import Project from "./components/Project";
 import Contact from "./components/Contact";
-
+import Scroll from "./components/SmoothScroll";
 function App() {
   const [mousePosition, setMousePosition] = useState({
     x: 0,
@@ -49,6 +49,7 @@ function App() {
 
   const textEnter = () => setCursorVariant("text");
   const textLeave = () => setCursorVariant("default");
+
   return (
     <div className="App">
       <motion.div
@@ -56,6 +57,8 @@ function App() {
         variants={variants}
         animate={cursorVariant}
       />
+      <Scroll />
+
       <Header />
       <Home />
       <br></br>
