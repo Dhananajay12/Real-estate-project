@@ -1,3 +1,16 @@
+
+Full page
+
+<img width="1350" alt="Artboard 1" src="https://user-images.githubusercontent.com/86872762/198660001-f2107af1-f605-4aae-9b2a-31a21b5cd11a.png">
+
+
+
+<img width="1350" alt="Artboard 2" src="https://user-images.githubusercontent.com/86872762/198660036-03a9949b-24c7-4ba8-9eeb-aecceb8001c0.png">
+
+<img width="1350" alt="Artboard 3" src="https://user-images.githubusercontent.com/86872762/198660064-f9a1cca4-6aa0-44da-bd8e-c40891a33d77.png">
+
+<img width="1350" alt="Artboard 5" src="https://user-images.githubusercontent.com/86872762/198660418-634ac0a4-8e40-4044-a032-c4e8a6dcd0f8.png">
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
